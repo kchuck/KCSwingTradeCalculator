@@ -1,0 +1,10 @@
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\bin\Debug\KCSwingTradeCalculator.exe.config
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\bin\Debug\KCSwingTradeCalculator.exe
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\bin\Debug\KCSwingTradeCalculator.pdb
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\obj\Debug\KCSwingTradeCalculator.csproj.AssemblyReference.cache
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\obj\Debug\KCSwingTradeCalculator.Properties.Resources.resources
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\obj\Debug\KCSwingTradeCalculator.csproj.GenerateResource.cache
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\obj\Debug\KCSwingTradeCalculator.csproj.CoreCompileInputs.cache
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\obj\Debug\KCSwingTradeCalculator.exe
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\obj\Debug\KCSwingTradeCalculator.pdb
+C:\KCSwingTradeCalculator\KCSwingTradeCalculator\obj\Debug\KCSwingTradeCalculator.Form1.resources
