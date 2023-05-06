@@ -53,6 +53,9 @@ namespace KCSwingTradeCalculator
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -71,6 +74,7 @@ namespace KCSwingTradeCalculator
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Control;
             this.textBox3.Location = new System.Drawing.Point(300, 32);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(94, 20);
@@ -213,11 +217,11 @@ namespace KCSwingTradeCalculator
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(434, 139);
+            this.label10.Location = new System.Drawing.Point(424, 139);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 13);
+            this.label10.Size = new System.Drawing.Size(126, 13);
             this.label10.TabIndex = 21;
-            this.label10.Text = "Adjusted Risk %";
+            this.label10.Text = "Adj NetLiq Draw Down %";
             // 
             // textBox10
             // 
@@ -230,11 +234,11 @@ namespace KCSwingTradeCalculator
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(434, 77);
+            this.label11.Location = new System.Drawing.Point(419, 77);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(62, 13);
+            this.label11.Size = new System.Drawing.Size(131, 13);
             this.label11.TabIndex = 19;
-            this.label11.Text = "Max Risk %";
+            this.label11.Text = "Max NetLiq Draw Down %";
             // 
             // textBox11
             // 
@@ -244,11 +248,41 @@ namespace KCSwingTradeCalculator
             this.textBox11.Size = new System.Drawing.Size(85, 20);
             this.textBox11.TabIndex = 18;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(429, 16);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(105, 13);
+            this.label12.TabIndex = 25;
+            this.label12.Text = "Stock Draw Down %";
+            // 
+            // textBox12
+            // 
+            this.textBox12.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox12.Location = new System.Drawing.Point(432, 32);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(85, 20);
+            this.textBox12.TabIndex = 24;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(2, 183);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(49, 17);
+            this.checkBox1.TabIndex = 26;
+            this.checkBox1.Text = "short";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(551, 203);
+            this.ClientSize = new System.Drawing.Size(553, 203);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.textBox12);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label11);
@@ -272,7 +306,7 @@ namespace KCSwingTradeCalculator
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "KC Swing Trade Calculator";
+            this.Text = "Trade Size Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,6 +337,9 @@ namespace KCSwingTradeCalculator
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
